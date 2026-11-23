@@ -11,7 +11,7 @@ Summary: Cython backend for GSTools.
 
 Development: https://github.com/GeoStat-Framework/GSTools-Cython
 
-Documentation: https://gstools-cython.readthedocs.io
+Documentation: https://gstools-cython.readthedocs.io/
 
 Current build status
 ====================
