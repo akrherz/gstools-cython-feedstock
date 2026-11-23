@@ -35,9 +35,11 @@ requirements:
     - cython >=3.0
     - numpy
     - extension-helpers
+    - vcomp14  # [win]
   run:
     - python
     - numpy >=1.20.0
+    - vcomp14  # [win]
 
 test:
   imports:
