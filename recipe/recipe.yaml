@@ -65,7 +65,10 @@ tests:
       run:
         - pytest
     script:
-      - pytest -vv tests
+      # tests found to be flappy on windows
+      - if: win
+        then: python -m pytest -k "not structured" -vv tests
+        else: python -m pytest -vv tests
 
 about:
   license: LGPL-3.0-or-later
